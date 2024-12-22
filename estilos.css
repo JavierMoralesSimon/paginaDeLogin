@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpapers.com/images/hd/1920x1080-full-hd-nature-clear-lake-and-flowers-5et15sh9gemfv0jt.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form{
+    background-color: rgba(255,255,255,0.5);
+    padding: 30px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    display: block;
+}
+
+#icono{
+    width: 66%;
+    display: flex;
+    margin: auto;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icono, input{
+    margin-bottom: 30px;
+}
+
+#login{
+    font-size: 30px;
+}
+
+#email, #con{
+    font-size: 30px;
+}
